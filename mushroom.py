@@ -3,11 +3,6 @@ import numpy as np
 import pickle
 import os
 
-
-# Assuming 'best_model' is your trained model
-with open('random_forest_model.pkl', 'wb') as f:
-    pickle.dump(best_model, f)
-
 # Define paths for the model and scaler files
 MODEL_PATH = "/full/path/to/random_forest_model.pkl"
 SCALER_PATH = "scaler.pkl"
